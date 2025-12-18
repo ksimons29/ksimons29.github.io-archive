@@ -1,0 +1,394 @@
+# CONTENT TEMPLATES
+# Copy any section below and paste it into your _config.yml
+
+# ============================================================
+# TEMPLATE 1: Add Another Project to Selected Work
+# ============================================================
+# Copy this block and add it to the "Selected Work" section
+
+      - layout: top-middle
+        title: Project Name Here
+        sub_title: Your Role | Industry/Company Type
+        caption: 2024 | 6 months
+        description: |
+          **Challenge:** Describe the business problem in 1-2 sentences. What wasn't working? What was the cost/impact?
+
+          **Approach:**
+          - First major action you took
+          - Second key initiative or decision
+          - Third important activity
+          - Fourth critical step
+
+          **Outcome:**
+          - Quantified result with % or numbers
+          - Second measurable impact
+          - Third business outcome
+
+
+# ============================================================
+# TEMPLATE 2: Professional Experience Section
+# ============================================================
+# Add this as a new section in your content array
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-middle
+        title: Job Title
+        sub_title: Company Name
+        caption: Start Year - End Year (or Present)
+        description: |
+          One-line summary of what the role was about and scale/scope.
+
+          **Key Responsibilities:**
+          - Primary responsibility with impact
+          - Second major area of ownership
+          - Third key accountability
+
+          **Achievements:**
+          - Specific accomplishment with metrics
+          - Another notable win with numbers
+
+      - layout: top-middle
+        title: Previous Job Title
+        sub_title: Previous Company Name
+        caption: Start Year - End Year
+        description: |
+          Brief summary of role and impact.
+
+
+# ============================================================
+# TEMPLATE 3: Education Section
+# ============================================================
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: Degree Name (MBA, BSc, etc.)
+        sub_title: University Name
+        caption: Graduation Year or Year Range
+        description: |
+          Optional details like honors, focus area, relevant coursework, or thesis topic.
+
+      - layout: top-middle
+        title: Another Degree
+        sub_title: Another University
+        caption: Graduation Year
+        description: |
+          Optional details.
+
+
+# ============================================================
+# TEMPLATE 4: Certifications Section
+# ============================================================
+
+  - title: Certifications & Training
+    layout: text
+    content: |
+      **Product Management**
+      - Certification Name (Issuer, Year)
+      - Another Certification (Issuer, Year)
+
+      **Technical**
+      - Technical Certification (Issuer, Year)
+      - Another Tech Cert (Issuer, Year)
+
+      **Leadership**
+      - Leadership Training (Provider, Year)
+
+
+# ============================================================
+# TEMPLATE 5: Awards & Recognition
+# ============================================================
+
+  - title: Awards & Recognition
+    layout: text
+    content: |
+      - **Award Name** - Organization Name (Year)
+        Brief description of what it recognized
+
+      - **Another Award** - Organization (Year)
+        What this was for
+
+      - **Recognition or Honor** - Context (Year)
+
+
+# ============================================================
+# TEMPLATE 6: Speaking & Publications
+# ============================================================
+
+  - title: Speaking & Publications
+    layout: list
+    content:
+      - layout: top-middle
+        title: "Talk or Article Title"
+        sub_title: Type | Venue or Publication
+        caption: Month Year
+        link: https://link-to-content.com
+        link_text: View Slides/Article
+        description: |
+          Brief description of the topic, audience size, or impact.
+          Any notable metrics like views, citations, or media mentions.
+
+      - layout: top-middle
+        title: "Another Talk or Publication"
+        sub_title: Conference/Journal Name
+        caption: Month Year
+        description: |
+          Description of content and impact.
+
+
+# ============================================================
+# TEMPLATE 7: Volunteer Work / Side Projects
+# ============================================================
+
+  - title: Beyond Work
+    layout: list
+    content:
+      - layout: top-middle
+        title: Volunteer Role or Side Project Name
+        sub_title: Organization Name
+        caption: Year Range or Ongoing
+        description: |
+          What you do/did and why it matters.
+
+          - Impact or achievement
+          - Another contribution
+
+      - layout: top-middle
+        title: Another Project
+        sub_title: Context
+        caption: Year
+        description: |
+          Brief description of the project and your role.
+
+
+# ============================================================
+# TEMPLATE 8: Languages Section
+# ============================================================
+
+  - title: Languages
+    layout: text
+    content: |
+      - **English:** Native/Fluent
+      - **Portuguese:** Professional Working Proficiency
+      - **Spanish:** Conversational
+      - **Afrikaans:** Native
+
+
+# ============================================================
+# EXAMPLE: Complete Multi-Section Portfolio
+# ============================================================
+# Here's how sections flow together in the content array:
+
+content:
+  # WORK SAMPLES
+  - title: Selected Work
+    layout: list
+    content:
+      # Your projects here (you already have this)
+
+  # PROFESSIONAL BACKGROUND
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-middle
+        title: Senior Product Manager
+        sub_title: Tech Company
+        caption: 2021 - Present
+
+  # EDUCATION
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: MBA
+        sub_title: University Name
+        caption: 2019
+
+  # LEARNING (you already have this)
+  - title: Current Learning
+    layout: text
+    content: |
+      Your current learning content...
+
+  # CAPABILITIES (you already have this)
+  - title: Skills
+    layout: text
+    content: |
+      Your skills content...
+
+  # CREDENTIALS
+  - title: Certifications
+    layout: text
+    content: |
+      - Cert 1
+      - Cert 2
+
+  # PERSONAL (you already have this)
+  - title: Interests
+    layout: text
+    content: |
+      Your interests...
+
+
+# ============================================================
+# QUICK REFERENCE: Section Types
+# ============================================================
+
+# For PROJECT-LIKE content (with cards):
+  - title: Section Name
+    layout: list
+    content:
+      - layout: top-middle
+
+# For TEXT-BASED content (no cards):
+  - title: Section Name
+    layout: text
+    content: |
+      Your text here
+
+
+# ============================================================
+# QUICK REFERENCE: Adding Links
+# ============================================================
+
+# Single link to main title:
+        title: Project Name
+        link: https://example.com
+        link_text: View Project
+
+# Multiple additional links:
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/user/project
+          - title: Live Demo
+            icon: fas fa-external-link-alt
+            url: https://demo.example.com
+
+
+# ============================================================
+# COMMON FONT AWESOME ICONS
+# ============================================================
+# Use these in additional_links
+
+# fab fa-github          - GitHub
+# fab fa-linkedin        - LinkedIn
+# fab fa-twitter         - Twitter
+# fas fa-external-link-alt - External link
+# fas fa-file-pdf        - PDF document
+# fas fa-book            - Documentation
+# fas fa-play-circle     - Video/Demo
+# fas fa-chart-line      - Analytics/Dashboard
+# fas fa-code            - Code/Development
+# far fa-newspaper       - Article/Blog
+
+
+# ============================================================
+# PLACEHOLDER EXAMPLES WITH REALISTIC CONTENT
+# ============================================================
+
+# EXAMPLE PROJECT 1: B2B SaaS Feature
+      - layout: top-middle
+        title: Multi-Tenant Access Control System
+        sub_title: Lead Product Manager | B2B SaaS
+        caption: 2023 | 9 months
+        description: |
+          **Challenge:** Enterprise clients couldn't onboard teams without manual admin support, creating 3-5 day delays and support burden.
+
+          **Approach:**
+          - Researched 25 enterprise accounts to map permission patterns
+          - Designed role-based access control (RBAC) with custom roles
+          - Built self-service admin portal with bulk user management
+          - Created migration plan for 150+ existing enterprise accounts
+
+          **Outcome:**
+          - Admin support tickets reduced 70%
+          - Enterprise onboarding time: 5 days → 2 hours
+          - Unlocked $400K in enterprise pipeline deals
+          - 95% admin satisfaction score
+
+# EXAMPLE PROJECT 2: Mobile Product
+      - layout: top-middle
+        title: Mobile-First Dashboard Redesign
+        sub_title: Product Manager | Fintech
+        caption: 2022 | 5 months
+        link: https://example.com/case-study
+        link_text: View Case Study
+        description: |
+          **Challenge:** 65% of users on mobile but product optimized for desktop, causing 40% task abandonment rate.
+
+          **Approach:**
+          - Analyzed 100K mobile sessions to identify friction points
+          - Ran design sprint with UX team to prototype solutions
+          - Launched progressive rollout to 10% of users first
+          - Monitored task completion and performance metrics daily
+
+          **Outcome:**
+          - Mobile task completion: 60% → 92%
+          - Page load time improved 3.2s → 1.1s
+          - Mobile NPS increased 42 → 67
+          - Featured in Product Hunt top 5
+
+# EXAMPLE PROJECT 3: AI/ML Product
+      - layout: top-middle
+        title: Predictive Churn Model Integration
+        sub_title: Product Manager | SaaS Analytics
+        caption: 2021 | 7 months
+        additional_links:
+          - title: Technical Blog Post
+            icon: fas fa-blog
+            url: https://blog.example.com/churn-prediction
+        description: |
+          **Challenge:** Retention team reactively addressing churn, missing 60% of at-risk accounts until too late.
+
+          **Approach:**
+          - Partnered with data science to build churn prediction model
+          - Designed early warning system integrated into CRM workflow
+          - Created playbook for customer success interventions
+          - Built feedback loop to improve model accuracy
+
+          **Outcome:**
+          - Churn prediction accuracy: 78% precision, 85% recall
+          - Proactive intervention rate: 0% → 65% of at-risk accounts
+          - Net revenue retention improved 8 percentage points
+          - Model featured in vendor case study
+
+# EXAMPLE: Full Experience Entry
+      - layout: top-middle
+        title: Senior Product Manager, Data Platform
+        sub_title: TechCorp (Series C SaaS, 200+ employees)
+        caption: Jan 2021 - Present | Lisbon (Remote)
+        description: |
+          Leading product strategy for B2B data analytics platform serving 5,000+ users across 200 enterprise accounts. Own roadmap, vision, and execution for core data infrastructure and self-service analytics products.
+
+          **Impact & Scope:**
+          - Grew product revenue from $3M to $8M ARR
+          - Manage cross-functional team of 10 (6 engineers, 2 designers, 2 analysts)
+          - Own $2.5M annual product development budget
+
+          **Key Achievements:**
+          - Launched AI-powered insights feature → 30% increase in user engagement
+          - Reduced infrastructure costs 40% through platform consolidation
+          - Achieved 92% customer satisfaction (NPS: 65)
+          - Led 3 major releases with 99.9% uptime
+
+# EXAMPLE: Education with Details
+      - layout: top-middle
+        title: Master of Business Administration (MBA)
+        sub_title: Nova School of Business and Economics, Lisbon
+        caption: 2018 - 2020
+        description: |
+          Specialization in Technology Strategy and Innovation
+
+          **Honors & Activities:**
+          - Dean's List (Top 10% of class)
+          - President, Product Management & Tech Club
+          - Finalist, European Business Case Competition
+
+          **Relevant Coursework:**
+          - Digital Business Strategy
+          - Data Analytics for Decision Making
+          - Technology Venture Creation
