@@ -16,13 +16,10 @@ linkedin_username: koossimons
 darkmode: false
 
 about_content: |
-  Product Manager with ~6 years in product roles and 10 years total experience 
-  who turns complex problems into products people actually use.
-  
-  I lead discovery, align stakeholders, and ship outcomes that matter. 
-  Currently based in **Lisbon**, open to product roles across Portugal and 
-  remote opportunities in Europe.
 
+about_content: |
+  Product Manager with 9 years building and scaling products in retail, finance, and manufacturing—always focused on getting things adopted. I run structured discovery, lead cross-functional teams, and ship with clear ownership and measurable impact. Comfortable with ambiguity, complex stakeholders, and data-heavy environments.
+  Based in **Lisbon**. Currently completing **Carnegie Mellon's PM program** and prototyping a language learning app on the side. Saxophone, hiking, good conversations.
 content:
   - title: Selected Work
     layout: list
